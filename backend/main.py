@@ -46,4 +46,4 @@ def delete_todo(todo_id: int, db: Session = Depends(get_db)):
     deleted = crud.delete_todo(db, todo_id)
     if not deleted:
         raise HTTPException(status_code=404, detail="Todo not found")
-    return {"detail": "Deleted"}
+    return None  # 204 No Content has no body

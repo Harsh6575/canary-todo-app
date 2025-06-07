@@ -88,6 +88,8 @@ npm run dev
 
 By default, it runs on `http://localhost:5173`
 
+> For better experience, you can use Reame files for Frontend and Backend.
+
 ---
 
 ## 🛠️ Technologies Used
